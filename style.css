@@ -1,0 +1,55 @@
+h1 {
+color: white;
+text-align: center;
+}
+
+p {
+color: white;
+text-align: center;
+}
+
+body {
+  background-image: url("forest.png");
+}
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    border-right: 1px solid #737874;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+img {
+text-align: center;
+}
+
+
+.active {
+background-color: #4a4a4a;
+}
+
+li:last-child {
+  border-right: none;
+}

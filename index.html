@@ -2,44 +2,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Link4real Birthday!</title>
+  <title>Select Countdown</title>
     <style>
         @import 'style.css'
         </style>
 </head>
 <body>
-    <div class="spacer layer1"></div>
-<section>
-<h1 id="link"; style="font-size:60px;"></h1>
-<script>
-var countDownDate = new Date("Nov 9, 2022 00:00:00").getTime();
-
-var x = setInterval(function() {
-
-  var now = new Date().getTime();
-
-  var distance = countDownDate - now;
-
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("link").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("link").innerHTML = "Happy Birthday :)";
-  }
-}, 1000);
-    
-    
-    
-    
-
-</script>
-    </section>
-    <div class="spacer layer2"></div>
+<h1 style="font-size:100px;">Select Countdown:</h1>
+<p style="font-size:60px;">Link Birthday: <a href="https://linkstudios.github.io/countdown/link">click here</a></p>
+<p style="font-size:60px;">vento Birthday: <a href="https://linkstudios.github.io/countdown/vento">click here</a></p>
+<p style="font-size:60px;">tisigue Anniversary: <a href="https://linkstudios.github.io/countdown/tisigue">click here</a></p>
 </body>
 </html>

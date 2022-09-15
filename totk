@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tears of the Kingdom Countdown</title>
+    <style>
+        @import 'totkstyle.css'
+        </style>
+</head>
+<body>
+<p>Days until "The Legend of Zelda: Tears of the Kingdom" releases:</p>
+<h1 id="totk"></h1>
+<script>
+var countDownDate = new Date("May 12, 2023 00:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+  document.getElementById("totk").innerHTML = days + "d ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("totk").innerHTML = "Countdown finished! :)";
+  }
+}, 1000);
+    
+    
+    
+    
+
+</script>
+</body>
+</html>

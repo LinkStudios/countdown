@@ -7,5 +7,3 @@
 ## Vento Birthday: https://linkstudios.github.io/countdown/vento
 
 ## tisigue Anniversary: https://linkstudios.github.io/countdown/tisigue
-
-## Tears of the Kingdom Release Countdown: https://linkstudios.github.io/countdown/totk
